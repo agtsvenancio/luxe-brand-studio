@@ -76,7 +76,7 @@ function Index() {
       {/* HEADER */}
       <header className="sticky top-0 z-50 border-b border-bone/10 bg-paper/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-16">
-          <img src={logo} alt="BOSSA Mgt" className="h-5 w-auto" />
+          <img src={logo} alt="BOSSA Mgt" className="h-5 w-auto brightness-0 invert opacity-90" />
           <nav className="hidden items-center gap-9 md:flex">
             <a
               href="#pilares"
@@ -366,7 +366,7 @@ function Index() {
       <footer className="border-t border-bone/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-10 px-6 py-16 lg:flex-row lg:items-end lg:justify-between lg:px-16">
           <div>
-            <img src={logo} alt="BOSSA Mgt" className="h-5 w-auto" />
+            <img src={logo} alt="BOSSA Mgt" className="h-5 w-auto brightness-0 invert opacity-90" />
             <p className="mt-4 max-w-[30ch] text-[13px] leading-relaxed text-pretty text-ash">
               Agência de moda para o perfil masculino. São Paulo — casting aberto o ano
               inteiro.
