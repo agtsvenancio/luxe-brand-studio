@@ -45,7 +45,7 @@ const GALLERY = [
   {
     src: model6,
     alt: "Ensaio externo com carro clássico",
-    span: "col-span-2 aspect-[16/10]",
+    span: "col-span-2 aspect-[5/4]",
   },
   { src: model4, alt: "Retrato de casting em estúdio", span: "col-span-1 aspect-[3/4]" },
   {
@@ -56,7 +56,7 @@ const GALLERY = [
   {
     src: model8,
     alt: "Modelo em look de alfaiataria clara",
-    span: "col-span-2 aspect-[16/10]",
+    span: "col-span-2 aspect-[5/4]",
   },
   {
     src: model3,
@@ -171,7 +171,7 @@ function Index() {
               <img
                 src={model6}
                 alt="Retrato editorial de modelo masculino da BOSSA Mgt"
-                className="img-zoom absolute inset-0 h-full w-full object-cover"
+                className="img-zoom absolute inset-0 h-full w-full object-cover object-top"
               />
               <span className="absolute bottom-4 left-4 text-[10px] uppercase tracking-[0.24em] text-bone/40">
                 Fig. 01 — São Paulo
@@ -249,7 +249,7 @@ function Index() {
                   src={img.src}
                   alt={img.alt}
                   loading="lazy"
-                  className="img-zoom absolute inset-0 h-full w-full object-cover"
+                  className="img-zoom absolute inset-0 h-full w-full object-cover object-top"
                 />
               </div>
             ))}
