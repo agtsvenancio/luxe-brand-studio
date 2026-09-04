@@ -61,12 +61,12 @@ const GALLERY = [
   {
     src: model3,
     alt: "Modelo com tricô marrom em estúdio",
-    span: "col-span-1 aspect-[3/4]",
+    span: "col-span-2 aspect-[4/5]",
   },
   {
     src: model7,
     alt: "Retrato masculino com iluminação dramática",
-    span: "col-span-1 mt-12 aspect-[3/4]",
+    span: "col-span-2 mt-12 aspect-[4/5]",
   },
 ];
 
